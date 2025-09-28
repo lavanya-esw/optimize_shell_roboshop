@@ -1,4 +1,5 @@
 #!/bin/bash
+source ./common.sh
 
 APP_NAME="nginx"
 CHECK_ROOT

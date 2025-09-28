@@ -1,6 +1,6 @@
 #!/bin/bash
 
-
+source ./common.sh
 APP_NAME="shipping"
 MYSQL_HOST="mysql.awsdevops.fun"
 CHECK_ROOT

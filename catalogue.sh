@@ -1,4 +1,6 @@
 #!/bin/bash
+source ./common.sh
+
 APP_NAME="catalogue"
 MONGODB_SERVER_IPADDRESS="mongodb.awsdevops.fun"
 

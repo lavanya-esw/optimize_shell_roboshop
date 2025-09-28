@@ -1,5 +1,7 @@
 #!/bin/bash
 
+
+source ./common.sh
 CHECK_ROOT
 
 cp $SCRIPT_DIR/rabbitmq.repo /etc/yum.repos.d/rabbitmq.repo &>>$LOG_FILE

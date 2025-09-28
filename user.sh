@@ -1,5 +1,6 @@
 #!/bin/bash
 
+source ./common.sh
 APP_NAME="user"
 CHECK_ROOT
 
