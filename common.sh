@@ -9,7 +9,7 @@ B="\e[34m"
 
 SCRIPT_DIR=$PWD
 START_TIME=$(date +%s)
-LOG_DIR=/var/log/shell_roboshop_project
+LOG_DIR=/var/log/optimize_roboshop_project
 SCRIPT_NAME=$( echo $0 | cut -d "." -f1 )
 LOG_FILE=${LOG_DIR}/${SCRIPT_NAME}.log
 mkdir -p $LOG_DIR
